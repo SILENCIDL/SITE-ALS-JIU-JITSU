@@ -84,27 +84,6 @@ function HeroSection() {
         </div>
       </div>
 
-      {/* Decorative side element */}
-      <div className="hidden lg:flex absolute right-0 top-0 bottom-0 w-2/5 items-center justify-center">
-        <div className="relative w-full h-full">
-          {/* Edge blend gradients — below the visual content */}
-          <div className="absolute inset-0 bg-gradient-to-r from-[#0e1012] to-transparent z-10" />
-          <div className="absolute inset-y-0 right-0 w-1/4 bg-gradient-to-l from-[#0e1012] to-transparent z-10" />
-          {/* Placeholder visual element — above the gradients */}
-          <div className="absolute inset-0 flex items-center justify-center z-20">
-            <div className="relative w-80 h-80">
-              <div className="absolute inset-0 border-2 border-[#F33535]/40 rounded-full animate-spin" style={{ animationDuration: "20s" }} />
-              <div className="absolute inset-8 border border-[#0C3C78]/50 rounded-full animate-spin" style={{ animationDuration: "15s", animationDirection: "reverse" }} />
-              <div className="absolute inset-16 border border-white/15 rounded-full" />
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="w-32 h-32 bg-[#F33535]/20 rounded-full flex items-center justify-center border border-[#F33535]/50">
-                  <span className="text-5xl font-black text-white">ALS</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
       {/* Bottom scroll indicator */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-bounce">
